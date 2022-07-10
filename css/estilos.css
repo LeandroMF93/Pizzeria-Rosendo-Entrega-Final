@@ -142,30 +142,22 @@
         width: 150px;
         height: auto;
         border-radius: 15px; }
-  .title__products, .titulopizza {
+  .titulo_pi, .titulopizza {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
     margin-top: 10rem;
     padding: 0 10px; }
-    .title__products h3, .titulopizza h3 {
+    .titulo_pi h3, .titulopizza h3 {
       font-family: 'Poppins', sans-serif;
       font-weight: 700;
       font-size: 60px; }
-    .title__products p, .titulopizza p {
+    .titulo_pi p, .titulopizza p {
       font-size: 30px;
       font-weight: 100;
       width: 80%;
       text-align: center; }
-  .cards {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 2rem 4rem; }
-    .cards .cardM {
-      margin: 1rem; }
   .pizzas {
     display: flex;
     align-items: center;
@@ -185,19 +177,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     margin-bottom: 20px; }
-  .nameCard {
-    width: 300px;
-    height: 300px;
-    margin: 30px; }
-  .nameCard .front h3 {
-    width: 300px;
-    height: 300px;
-    line-height: 300px;
-    color: #2c2d4c; }
-  .nameCard .back h3 {
-    font-size: 70px;
-    margin-top: 70px;
-    letter-spacing: 1px; }
   .formulario {
     display: flex;
     flex-direction: column;
@@ -305,7 +284,7 @@
       background-color: #ffbb00;
       color: crimson; }
 
-/* Contact html */
+/* Contacto */
 .formulario {
   display: flex;
   justify-content: center;
@@ -598,17 +577,17 @@
 .nameCard:hover .back {
   transform: perspective(600px) rotateY(360deg); }
 
-/* HOME */
-.titulo_pi {
+/* PIZZAS */
+.titulo_pi, .titulopizza {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 10rem; }
-  .titulo_pi h3 {
+  .titulo_pi h3, .titulopizza h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 60px; }
-  .titulo_pi p {
+  .titulo_pi p, .titulopizza p {
     font-size: 30px;
     font-weight: 100; }
 
